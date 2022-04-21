@@ -120,6 +120,23 @@ eksctl version
 ### Step-03-02: eksctl on windows or linux
 - For windows and linux OS, you can refer below documentation link. 
 - **Reference:** https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html#installing-eksctl
+Chinny's Note:
+- Download the software from the below-given link.
+https://github.com/weaveworks/eksctl/releases/download/0.22.0/eksctl_Windows_amd64.zip
+Unzip the folder.
+
+Set a path in your environment variable.
+
+Check if it is working or not, using the below-given command.
+
+$ eksctl version
+
+HOW TO SET ENVIRONMENTAL VARIABLES IN WINDOWS 11:
+Step 1: In the Start menu, type: “Edit the system environment variables” (without quotation marks) and hit the enter key.
+Step 2: Select the “Advanced” tab from the top bar and select the “Environment Variables” button.
+Step 3: Double click the “Path” variable in the System Variables section.
+Step 4: Click the “New” button, enter the file path and click the “OK” button.
+Step 5: Restart your computer to make changes take effect.
 
 
 ## References:
